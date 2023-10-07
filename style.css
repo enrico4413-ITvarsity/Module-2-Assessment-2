@@ -1,0 +1,262 @@
+body{
+    padding:0px;
+    margin:0px;
+    font-family:helvetica, sans-serif;
+    background-color:ghostwhite;
+}
+/*====================================HEADER=======================================================*/
+#header{
+    position:fixed;
+    top:0px;
+    left:0px;
+    z-index:500;
+    width:100%;
+    height:20%;
+    background-image: url('images/background.png');
+    background-repeat:repeat-x;
+}
+#header img{
+    display:block;
+    margin:auto;
+    height:60%;
+}
+/*====================================TABS TOP=======================================================*/
+#tabs-above{
+    position:fixed;
+    top:80px;
+    left:0px;
+    z-index:500;
+    width:100%;
+    height:40px;
+    background-color:floralwhite;
+}
+#tabs-above a{
+    text-decoration:none;
+    float:left;
+    display:block;
+    width:25%;
+    height:35px;
+    font-weight:700;
+    color:darkslategray;
+    text-align:center;
+    padding-top:12px;
+}
+#tabs-above a:hover{
+    color:coral;
+}
+/*====================================HOME PAGE=======================================================*/
+#home-page{
+    margin-top:120px;
+    margin-bottom:40px;
+}
+/*====================================TABS BOTTOM=======================================================*/
+#tabs-bottom{
+    position:fixed;
+    bottom:0px;
+    left:0;
+    z-index:500;
+    width:100%;
+    height:40px;
+    background-color:floralwhite;
+}
+#tabs-bottom a{
+    text-decoration:none;
+    float:left;
+    display:block;
+    width:50%;
+    height:35px;
+    font-weight:700;
+    color:darkslategray;
+    text-align:center;
+    padding-top:12px;
+}
+#tabs-bottom a:hover{
+    color:coral;
+}
+/*====================================HOME PAGE=======================================================*/
+#home-page{
+    background-image:url('images/special%20list%20background%20image.png');
+}
+#home-page h2{
+    text-align:center;
+    font-size: 40px;
+    color:coral;
+    font-style:italic;
+    padding-top:10px;
+}
+#home-page img{
+    width:50%;
+    display:block;
+    margin:0px auto;
+    padding-left:25%;
+    border-style:outset;
+    border-width:5px;
+    border-color:coral;
+    padding:5px;
+    border-spacing:2px;
+}
+#home-page h3{
+    text-align: center;
+    font-size:28px;
+    font-family:cursive;
+    font-weight: 100;
+}
+/*====================================MAP PAGE=======================================================*/
+#map-page{
+    margin-top:120px;
+    background-image:url('images/map%20background%20image.png')
+}
+/*====================================STORE LIST & INFO BOX=======================================================*/
+#main{
+    margin-top:119px;
+    background-image:url('images/blur%20mall.jpg');
+    
+}
+#places{
+    padding-top:1px;
+    padding-bottom:50px;
+}
+#places h2{
+    text-align:center;
+    font-size: 40px;
+    color:black;
+    font-style:italic;
+    padding-top:10px; 
+}
+a.info-box{
+    text-decoration:none;
+    background:rgba(255, 255, 255, .8);
+    width:90%;
+    height:90px;
+    display:block;
+    margin:auto;
+    margin-top:12px;
+    padding:1px;
+}
+.info-box img{
+    height:70px;
+    margin:10px;
+    float:left;
+}
+
+.info-box h3{
+    padding:0;
+    margin-bottom:0;
+    width:90%;
+    color:orangered;
+}
+.info-box p{
+    margin:0;
+    padding:0;
+    width:90%;
+    color:#131313;
+}
+.info-box img.right{
+    float:right;
+    margin-top:25px;
+    height:40px;
+}
+/*====================================STORE PAGE & INFO FULL BOX=======================================================*/
+#logo img{
+    display:block;
+    margin:auto;
+    padding-top:10px;
+}
+#info-full-box{
+    background:rgba(255,255,255, .8);
+    width:90%;
+    display:block;
+    margin:auto;
+    margin-top:12px;
+    padding:10px;
+    margin-bottom:40px;
+}
+#info-full-box img{
+    width:100%;
+}
+#info-full-box h3{
+    text-align:center;
+}
+#info-full-box h2{
+    text-align:center;
+    color:coral;
+}
+
+/*====================================Contact PAGE & INFO FULL BOX=======================================================*/
+#contact h1{
+    text-align:center;
+}
+#contact h3{
+    text-align:center;
+}
+#contact p{
+    text-align:center;
+}
+#contact img{
+    display:block;
+    margin:auto;
+    width:100%;
+}
+#contact{
+     background:rgba(255,255,255, .8);
+    width:90%;
+    display:block;
+    margin:auto;
+    margin-top:12px;
+    padding:10px;
+    margin-bottom:40px;
+}
+#business-hours p{
+    text-align:left;
+}
+/*====================================FORM=======================================================*/
+
+input{
+    width:100%;
+    height:30px;
+    margin:12px 0;
+    border:1px solid #929292;
+}
+textarea{
+    width:100%;
+    height:80px;
+    margin:12px 0;
+    border:1px solid #929292;
+    
+}
+.button{
+    display:block;
+    width:100%;
+    background-color:darkblue;
+    text-decoration:none;
+    text-align: center;
+    color:white;
+    font-size:16px;
+    font-weight:600;
+    margin:12px 0;
+    padding:8px 0;
+}
+#FORM{
+    text-align:center;
+}
+#main-form{
+     background:rgba(255,255,255, .8);
+    width:90%;
+    display:block;
+    margin:auto;
+    margin-top:120px;
+    padding:10px;
+    margin-bottom:40px;
+}
+/*====================================Movies=======================================================*/
+#movies{
+    margin-top:119px;
+    background-image:url('images/cinema%20theatre.jpg');
+}
+#movies h2{
+    color:white;
+}
+#movies h1{
+    text-align:center;
+    color:coral;
+}
